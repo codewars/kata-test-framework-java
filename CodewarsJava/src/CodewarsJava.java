@@ -9,10 +9,16 @@ import org.junit.Test;
 
 public class CodewarsJava {
 
-        int correctAnswers = 0;
-        int failed = 0;
+    public int multiply(int x, int y) {
+
+   x * y; // This won't compile, this is like one of the JS Katas.
 
     }
+
+}
+
+
+
 
 
 
