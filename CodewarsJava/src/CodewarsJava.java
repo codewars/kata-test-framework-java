@@ -11,8 +11,12 @@ public class CodewarsJava {
 
     public int multiply(int x, int y) {
 
-   x * y; // This won't compile, this is like one of the JS Katas.
+    x * y; // This won't compile, this is like one of the JS Katas.
 
+    }
+
+    public String greet(String name) {
+        return Hello + " " + name;
     }
 
 }
