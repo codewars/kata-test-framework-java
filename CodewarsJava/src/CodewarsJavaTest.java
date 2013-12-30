@@ -48,6 +48,11 @@ import org.junit.runner.Description;
 
         }
 
+        @Test
+        public final void testGreet() {
+            Assert.assertEquals("Hello Bob", codewarsJava.greet("Bob"));
+        }
+
         @After
         public void tearDown() throws Exception {
 
